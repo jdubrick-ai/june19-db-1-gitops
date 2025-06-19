@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: june19-db-1-database-config
+data:
+  VECTORDB_HOST: "june19-db-1-database"
+  VECTORDB_PORT: "8000"
